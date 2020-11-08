@@ -1000,7 +1000,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XeI-IQ-9MC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2784.057971014493" y="95.758928571428569"/>
+            <point key="canvasLocation" x="3369" y="95"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2Mo-ry-lac">
@@ -1074,7 +1074,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ifq-he-DPv"/>
+        <segue reference="Kl6-Yt-uJP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chart.bar.xaxis" catalog="system" width="128" height="98"/>

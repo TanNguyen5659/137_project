@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		344ECD6025579D2E00A3CFC9 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344ECD5F25579D2E00A3CFC9 /* NotificationViewController.swift */; };
+		344ECD652557BA4C00A3CFC9 /* CreateSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344ECD642557BA4C00A3CFC9 /* CreateSurveyViewController.swift */; };
 		58D412FCB0E320D0B3E86E34 /* Pods_137_projectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36E1596D74BE80AD9F68922 /* Pods_137_projectTests.framework */; };
 		772F746C4DD65DE8EAA3709E /* Pods_137_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B233C5E619D23069BBDADA1 /* Pods_137_project.framework */; };
 		BF2979E725227D53009EEDCB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2979E625227D53009EEDCB /* SignUpViewController.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		344ECD5F25579D2E00A3CFC9 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		344ECD642557BA4C00A3CFC9 /* CreateSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSurveyViewController.swift; sourceTree = "<group>"; };
 		35D6BEBA75965C44457801AE /* Pods-137_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-137_project.debug.xcconfig"; path = "Target Support Files/Pods-137_project/Pods-137_project.debug.xcconfig"; sourceTree = "<group>"; };
 		49A1458ABFF8BC247DC77AF4 /* Pods-137_projectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-137_projectTests.debug.xcconfig"; path = "Target Support Files/Pods-137_projectTests/Pods-137_projectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C47C96F7B33A11C2669DDAA /* Pods-137_projectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-137_projectTests.release.xcconfig"; path = "Target Support Files/Pods-137_projectTests/Pods-137_projectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				BF2979E625227D53009EEDCB /* SignUpViewController.swift */,
 				BF2979EB25227D69009EEDCB /* HomeViewController.swift */,
 				BF61F2512522DC4B003001C4 /* ViewController.swift */,
+				344ECD5F25579D2E00A3CFC9 /* NotificationViewController.swift */,
+				344ECD642557BA4C00A3CFC9 /* CreateSurveyViewController.swift */,
 			);
 			path = 137_project;
 			sourceTree = "<group>";
@@ -427,9 +433,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				344ECD652557BA4C00A3CFC9 /* CreateSurveyViewController.swift in Sources */,
 				BF61F2522522DC4B003001C4 /* ViewController.swift in Sources */,
 				BF2979EC25227D69009EEDCB /* HomeViewController.swift in Sources */,
 				BF2979E725227D53009EEDCB /* SignUpViewController.swift in Sources */,
+				344ECD6025579D2E00A3CFC9 /* NotificationViewController.swift in Sources */,
 				BFDC3722252180FF0073B8AF /* LoginViewController.swift in Sources */,
 				BFDC371E252180FF0073B8AF /* AppDelegate.swift in Sources */,
 				BFDC3720252180FF0073B8AF /* SceneDelegate.swift in Sources */,
