@@ -207,11 +207,5 @@ class MenuViewController: UIViewController {
     }
     
     
-    override func viewDidAppear(_ animated: Bool) {
-        if Auth.auth().currentUser != nil {
-            self.performSegue(withIdentifier: "startToHome", sender: nil)
-        }
-    }
-    
 
 }
