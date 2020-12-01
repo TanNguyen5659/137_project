@@ -22,8 +22,8 @@ class MenuViewController: UIViewController {
     private let titles = [
     "Multiple Choice",
     "Image Quiz",
-    "True or False",
-    "Emoji Riddle"
+    "Emoji",
+    ""
     ]
     
     private var recentScores = [Int]()
@@ -173,10 +173,11 @@ class MenuViewController: UIViewController {
             vc = MultipleChoiceViewController()
         case 1:
             print("Image")
+            vc = ImageQuizViewController()
         case 2:
-            print("True or False")
-        case 3:
             print("Emoji")
+        case 3:
+            print("Em")
         default:
             break
         }

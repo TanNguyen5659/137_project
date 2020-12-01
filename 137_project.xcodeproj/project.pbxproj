@@ -24,6 +24,13 @@
 		BFDC3735252181000073B8AF /* _37_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC3734252181000073B8AF /* _37_projectTests.swift */; };
 		BFDC3740252181000073B8AF /* _37_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC373F252181000073B8AF /* _37_projectUITests.swift */; };
 		C7404A846C3BD7BB02B407A5 /* Pods_137_project_137_projectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E342A02D8A7139DF024B38 /* Pods_137_project_137_projectUITests.framework */; };
+		DB39399D2576D37D002B7AFE /* GenericQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39399C2576D37D002B7AFE /* GenericQuizViewController.swift */; };
+		DB3939A22576D470002B7AFE /* ImageQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3939A12576D470002B7AFE /* ImageQuizViewController.swift */; };
+		DB3939AA2576D49C002B7AFE /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB3939A62576D49C002B7AFE /* apple.jpg */; };
+		DB3939AB2576D49C002B7AFE /* burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB3939A72576D49C002B7AFE /* burger.jpg */; };
+		DB3939AC2576D49C002B7AFE /* hammer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB3939A82576D49C002B7AFE /* hammer.jpg */; };
+		DB3939AD2576D49C002B7AFE /* tomato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB3939A92576D49C002B7AFE /* tomato.jpg */; };
+		DB3939C22576D58A002B7AFE /* ImageQuiz.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB3939C12576D58A002B7AFE /* ImageQuiz.plist */; };
 		DB3F45C52572417600BB5440 /* Constraints+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F45C42572417600BB5440 /* Constraints+Extension.swift */; };
 		DBCF677825722F4500F28CC7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF677725722F4500F28CC7 /* RoundedButton.swift */; };
 		DBCF677D25722FCD00F28CC7 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF677C25722FCD00F28CC7 /* RoundedLabel.swift */; };
@@ -78,6 +85,13 @@
 		BFDC373B252181000073B8AF /* 137_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 137_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDC373F252181000073B8AF /* _37_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _37_projectUITests.swift; sourceTree = "<group>"; };
 		BFDC3741252181000073B8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB39399C2576D37D002B7AFE /* GenericQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericQuizViewController.swift; sourceTree = "<group>"; };
+		DB3939A12576D470002B7AFE /* ImageQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageQuizViewController.swift; sourceTree = "<group>"; };
+		DB3939A62576D49C002B7AFE /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apple.jpg; path = ../../../../../Downloads/Resources/apple.jpg; sourceTree = "<group>"; };
+		DB3939A72576D49C002B7AFE /* burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = burger.jpg; path = ../../../../../Downloads/Resources/burger.jpg; sourceTree = "<group>"; };
+		DB3939A82576D49C002B7AFE /* hammer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hammer.jpg; path = ../../../../../Downloads/Resources/hammer.jpg; sourceTree = "<group>"; };
+		DB3939A92576D49C002B7AFE /* tomato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tomato.jpg; path = ../../../../../Downloads/Resources/tomato.jpg; sourceTree = "<group>"; };
+		DB3939C12576D58A002B7AFE /* ImageQuiz.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ImageQuiz.plist; sourceTree = "<group>"; };
 		DB3F45C42572417600BB5440 /* Constraints+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constraints+Extension.swift"; sourceTree = "<group>"; };
 		DBCF677725722F4500F28CC7 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		DBCF677C25722FCD00F28CC7 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
@@ -200,6 +214,10 @@
 		DB3F45C92572482000BB5440 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DB3939A62576D49C002B7AFE /* apple.jpg */,
+				DB3939A72576D49C002B7AFE /* burger.jpg */,
+				DB3939A82576D49C002B7AFE /* hammer.jpg */,
+				DB3939A92576D49C002B7AFE /* tomato.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -229,6 +247,8 @@
 				BF2979E625227D53009EEDCB /* SignUpViewController.swift */,
 				BFDC3721252180FF0073B8AF /* LoginViewController.swift */,
 				DBE684512576194A00FE8E57 /* MultipleChoiceViewController.swift */,
+				DB39399C2576D37D002B7AFE /* GenericQuizViewController.swift */,
+				DB3939A12576D470002B7AFE /* ImageQuizViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				DBE684562576245900FE8E57 /* MultipleChoice.plist */,
+				DB3939C12576D58A002B7AFE /* ImageQuiz.plist */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -382,8 +403,13 @@
 				DBE684572576245900FE8E57 /* MultipleChoice.plist in Resources */,
 				BFDC372A252181000073B8AF /* LaunchScreen.storyboard in Resources */,
 				BFBFAD762522A93B00FEFA39 /* GoogleService-Info.plist in Resources */,
+				DB3939C22576D58A002B7AFE /* ImageQuiz.plist in Resources */,
+				DB3939AC2576D49C002B7AFE /* hammer.jpg in Resources */,
+				DB3939AB2576D49C002B7AFE /* burger.jpg in Resources */,
 				BFDC3727252181000073B8AF /* Assets.xcassets in Resources */,
+				DB3939AA2576D49C002B7AFE /* apple.jpg in Resources */,
 				BFDC3725252180FF0073B8AF /* Main.storyboard in Resources */,
+				DB3939AD2576D49C002B7AFE /* tomato.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,10 +540,12 @@
 				344ECD652557BA4C00A3CFC9 /* CreateSurveyViewController.swift in Sources */,
 				DBE6845C257627DA00FE8E57 /* QuizLoader.swift in Sources */,
 				DBE68461257633CC00FE8E57 /* QuizAlertView.swift in Sources */,
+				DB3939A22576D470002B7AFE /* ImageQuizViewController.swift in Sources */,
 				BF61F2522522DC4B003001C4 /* MenuViewController.swift in Sources */,
 				BF2979EC25227D69009EEDCB /* HomeViewController.swift in Sources */,
 				BF2979E725227D53009EEDCB /* SignUpViewController.swift in Sources */,
 				DBCF677825722F4500F28CC7 /* RoundedButton.swift in Sources */,
+				DB39399D2576D37D002B7AFE /* GenericQuizViewController.swift in Sources */,
 				344ECD6025579D2E00A3CFC9 /* NotificationViewController.swift in Sources */,
 				DBCF677D25722FCD00F28CC7 /* RoundedLabel.swift in Sources */,
 				DB3F45C52572417600BB5440 /* Constraints+Extension.swift in Sources */,
