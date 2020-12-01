@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>Answers</key>
+			<array>
+				<string>Serena</string>
+				<string>Venus</string>
+				<string>Ameli</string>
+				<string>Jennifer</string>
+			</array>
+			<key>CorrectAnswer</key>
+			<string>Serena</string>
+			<key>Question</key>
+			<string>Which Williams sister has won more Grand Slam titles?</string>
+		</dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>Titanic</string>
+                <string>Avengers: Endgame</string>
+                <string>Avatar</string>
+                <string>Iron man</string>
+            </array>
+            <key>CorrectAnswer</key>
+            <string>Avengers: Endgame</string>
+            <key>Question</key>
+            <string>What is the highest-grossing film of all time without taking inflation into account?</string>
+        </dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>Pinocchio</string>
+                <string>Dumbo</string>
+                <string>Tom and Jerry</string>
+                <string>Snow White and the Seven Dwarfs </string>
+            </array>
+            <key>CorrectAnswer</key>
+            <string>Snow White and the Seven Dwarfs </string>
+            <key>Question</key>
+            <string>What was the first feature-length animated film ever released?</string>
+        </dict>
+        <dict>
+                    <key>Answers</key>
+                    <array>
+                        <string>4</string>
+                        <string>2</string>
+                        <string>1</string>
+                        <string>0</string>
+                    </array>
+                    <key>CorrectAnswer</key>
+                    <string>0</string>
+                    <key>Question</key>
+                    <string>How many blue stripes are there on the U.S. flag?</string>
+                </dict>
+	</array>
+</dict>
+</plist>

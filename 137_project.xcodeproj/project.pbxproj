@@ -28,6 +28,9 @@
 		DBCF677825722F4500F28CC7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF677725722F4500F28CC7 /* RoundedButton.swift */; };
 		DBCF677D25722FCD00F28CC7 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF677C25722FCD00F28CC7 /* RoundedLabel.swift */; };
 		DBE684522576194A00FE8E57 /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE684512576194A00FE8E57 /* MultipleChoiceViewController.swift */; };
+		DBE684572576245900FE8E57 /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBE684562576245900FE8E57 /* MultipleChoice.plist */; };
+		DBE6845C257627DA00FE8E57 /* QuizLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6845B257627DA00FE8E57 /* QuizLoader.swift */; };
+		DBE68461257633CC00FE8E57 /* QuizAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE68460257633CC00FE8E57 /* QuizAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		DBCF677725722F4500F28CC7 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		DBCF677C25722FCD00F28CC7 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
 		DBE684512576194A00FE8E57 /* MultipleChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceViewController.swift; sourceTree = "<group>"; };
+		DBE684562576245900FE8E57 /* MultipleChoice.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MultipleChoice.plist; sourceTree = "<group>"; };
+		DBE6845B257627DA00FE8E57 /* QuizLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizLoader.swift; sourceTree = "<group>"; };
+		DBE68460257633CC00FE8E57 /* QuizAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAlertView.swift; sourceTree = "<group>"; };
 		E066E3837B5EA2CD0759C1A4 /* Pods-137_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-137_project.release.xcconfig"; path = "Target Support Files/Pods-137_project/Pods-137_project.release.xcconfig"; sourceTree = "<group>"; };
 		F36E1596D74BE80AD9F68922 /* Pods_137_projectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_137_projectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -233,6 +239,8 @@
 				DBCF677725722F4500F28CC7 /* RoundedButton.swift */,
 				DBCF677C25722FCD00F28CC7 /* RoundedLabel.swift */,
 				DB3F45C42572417600BB5440 /* Constraints+Extension.swift */,
+				DBE6845B257627DA00FE8E57 /* QuizLoader.swift */,
+				DBE68460257633CC00FE8E57 /* QuizAlertView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -248,6 +256,7 @@
 		DBCF677025722B4A00F28CC7 /* Questions */ = {
 			isa = PBXGroup;
 			children = (
+				DBE684562576245900FE8E57 /* MultipleChoice.plist */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -370,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE684572576245900FE8E57 /* MultipleChoice.plist in Resources */,
 				BFDC372A252181000073B8AF /* LaunchScreen.storyboard in Resources */,
 				BFBFAD762522A93B00FEFA39 /* GoogleService-Info.plist in Resources */,
 				BFDC3727252181000073B8AF /* Assets.xcassets in Resources */,
@@ -502,6 +512,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				344ECD652557BA4C00A3CFC9 /* CreateSurveyViewController.swift in Sources */,
+				DBE6845C257627DA00FE8E57 /* QuizLoader.swift in Sources */,
+				DBE68461257633CC00FE8E57 /* QuizAlertView.swift in Sources */,
 				BF61F2522522DC4B003001C4 /* MenuViewController.swift in Sources */,
 				BF2979EC25227D69009EEDCB /* HomeViewController.swift in Sources */,
 				BF2979E725227D53009EEDCB /* SignUpViewController.swift in Sources */,
